@@ -1,9 +1,5 @@
 # MEMORIA: A Large Language Model, Instruction Data and Evaluation Benchmark for Intangible Cultural Heritage
 
-MEMORIA¹ (Multimodal Ensemble for Memory Optimization and Retrieval of Intangible Assets) is a comprehensive AI framework designed to preserve, understand, and promote intangible cultural heritage (ICH) through advanced language modeling and cultural-aware AI systems.
-
-¹ *MEMORIA* is Latin for "memory," reflecting our framework's mission to preserve and maintain cultural memories for future generations.
-
 ## Overview
 
 This project implements the complete MEMORIA framework as described in our ICLR 2026 paper, featuring:
@@ -70,44 +66,6 @@ memoria/
 - **Pragmatic Accuracy (PA)**: Preservation of illocutionary force and socio-pragmatic appropriateness
 - **Sacred Knowledge Handling (SKH)**: Ethical treatment of epistemologically-restricted content
 
-## Evaluation Results
-
-### ICHEB Benchmark Performance
-
-| Model | Cultural Score | Cultural Fidelity | Heritage-NER F1 | Culture-QA Accuracy |
-|-------|---------------|-------------------|----------------|-------------------|
-| LLaMA-7B | 0.452 | 0.389 | 0.341 | 0.423 |
-| ICHLLM-7B | **0.768** | **0.731** | **0.692** | **0.785** |
-| LLaMA-13B | 0.478 | 0.412 | 0.367 | 0.445 |
-| ICHLLM-13B | **0.791** | **0.756** | **0.718** | **0.812** |
-
-### Cultural Coverage
-
-- **147 Cultural Traditions**: Global representation across all continents
-- **6 UNESCO Domains**: Complete coverage of ICH classification
-- **Sacred Boundary Protection**: 98.7% accuracy in preventing violations
-- **Cross-Cultural Consistency**: 0.823 average consistency score
-
-##  Dataset Details
-
-### CHIT Dataset Statistics
-
-| Source | Samples | Cultures | Tasks | Domains |
-|--------|---------|----------|-------|---------|
-| UNESCO ICH Lists | 18,432 | 89 | 3 | 6 |
-| Heritage-NER | 25,678 | 34 | 1 | 4 |
-| Cultural Stories | 31,245 | 67 | 2 | 3 |
-| Craft Knowledge | 22,156 | 43 | 3 | 2 |
-| Cross-Cultural QA | 28,934 | 78 | 2 | 5 |
-| Festival Descriptions | 15,823 | 52 | 2 | 1 |
-| Traditional Medicine | 8,967 | 29 | 1 | 1 |
-| Music & Dance | 12,445 | 45 | 3 | 1 |
-| Language Preservation | 6,234 | 23 | 1 | 1 |
-| Ritual Documentation | 4,567 | 31 | 2 | 2 |
-| Oral Traditions | 9,876 | 41 | 2 | 1 |
-| Artisan Interviews | 7,123 | 28 | 2 | 1 |
-| Digital Archives | 11,234 | 39 | 3 | 4 |
-| **Total** | **158,714** | **147** | **6** | **6** |
 
 ## Research Contributions
 
